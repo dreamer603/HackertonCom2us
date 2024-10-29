@@ -6,11 +6,13 @@ public class PumpkinStar : MonoBehaviour
 {
     [SerializeField]
     private float _speed = 5f;
+
+    public GameObject getStarEffect;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,6 +26,8 @@ public class PumpkinStar : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             PumpkinScoreManager.Instance.Score += 300;
+            Instantiate(getStarEffect);
+            getStarEffect.transform.position = transform.position;
         }
         Destroy(gameObject);
         

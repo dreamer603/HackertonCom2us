@@ -6,6 +6,8 @@ public class Pumpkin : MonoBehaviour
 {
     [SerializeField]
     private float _speed = 5f;
+
+    public GameObject hitPumpkinEffect;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,8 @@ public class Pumpkin : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Instantiate(hitPumpkinEffect);
+            hitPumpkinEffect.transform.position = transform.position;
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
