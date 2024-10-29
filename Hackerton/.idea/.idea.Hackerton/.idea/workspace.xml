@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5e1f69-394f-45c0-bfa3-c77827bcbf7e" name="Changes" comment="">
+    <list default="true" id="28bf5e74-a07a-49de-93e6-f5e6db657907" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/009b42c625e8566a79729bad86605a46" beforeDir="false" />
@@ -456,7 +458,7 @@
       <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag.payloads" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag.payloads" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag_derived" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag_fsmtime" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag_fsmtime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.UnityAdditionalFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.UnityAdditionalFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.dll" afterDir="false" />
@@ -11982,16 +11984,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Generator/Generator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Timer/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSYstem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="2o6oRYrMGuKDvEl2pJztTEL4aWj" />
+  <component name="ProjectId" id="2o6oRWeHheqHYhlkVXpCvRCpYg8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -12057,12 +12058,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5a5e1f69-394f-45c0-bfa3-c77827bcbf7e" name="Changes" comment="" />
-      <created>1730199382059</created>
+      <changelist id="28bf5e74-a07a-49de-93e6-f5e6db657907" name="Changes" comment="" />
+      <created>1730199379832</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1730199382059</updated>
-      <workItem from="1730199387883" duration="6577000" />
+      <updated>1730199379832</updated>
+      <workItem from="1730199387883" duration="13010000" />
     </task>
     <servers />
   </component>
