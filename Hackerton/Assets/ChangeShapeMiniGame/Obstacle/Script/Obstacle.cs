@@ -24,6 +24,11 @@ namespace ChangeShapeMiniGame.Obstacle.Script
             {
                 Debug.Log("게임오버");
             }
+
+            if (other.CompareTag("Wall"))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
