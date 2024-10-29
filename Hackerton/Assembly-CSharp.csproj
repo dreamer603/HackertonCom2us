@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets\ChangeShapeMiniGame\Sys\Generator\Generator.cs" />
     <Compile Include="Assets\ChangeShapeMiniGame\Sys\Timer\Timer.cs" />
+    <Compile Include="Assets\ChangeShapeMiniGame\GameOverUI\Script\UiSystem.cs" />
     <Compile Include="Assets\ChangeShapeMiniGame\Obstacle\Script\Obstacle.cs" />
     <Compile Include="Assets\ChangeShapeMiniGame\Player\Script\Player.cs" />
     <Compile Include="Assets\ChangeShapeMiniGame\GameOverUI\Script\GameOver.cs" />
