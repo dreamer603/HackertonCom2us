@@ -1,3 +1,4 @@
+using ChangeShapeMiniGame.GameOverUI.Script;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -22,11 +23,13 @@ namespace ChangeShapeMiniGame.Obstacle.Script
         {
             if (other.CompareTag("Player") && Player.ShapeType != idNumber)
             {
-                Debug.Log("게임오버");
+                Player.IsAlive = false;
+                GameOver.GoodGame();
             }
 
             if (other.CompareTag("Wall"))
             {
+                Player.ParticleSystem.Play();
                 Destroy(gameObject);
             }
         }
