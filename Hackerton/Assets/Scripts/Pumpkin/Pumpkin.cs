@@ -21,19 +21,21 @@ public class Pumpkin : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
         if (other.gameObject.CompareTag("Player"))
         {
             Destroy(other.gameObject);
+            Destroy(gameObject);
         }
         else
         {
-            PumpkinManager.Instance.pumpkinObjectPools.Add(other.gameObject);
-            ScoreManager.Instance.Score += 100;
-            if (ScoreManager.Instance.Score % 1000 == 0)
+            gameObject.SetActive(false);
+            PumpkinManager.Instance.pumpkinObjectPools.Add(gameObject);
+            PumpkinScoreManager.Instance.Score += 100;
+            if (PumpkinScoreManager.Instance.Score % 1000 == 0)
             {
                 PumpkinManager.Instance.CreateTime /= 1.5f;
             }
         }
+        
     }
 }
