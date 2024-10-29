@@ -10,11 +10,13 @@ namespace ChangeShapeMiniGame.Sys.Timer
         [SerializeField] private TextMeshProUGUI timeUi;
         private void Start()
         {
+            Score = 0;
             _time = 0;
         }
     
         private void Update()
         {
+            if (!Player.IsAlive) return;
             _time += Time.deltaTime;
             Score = (int)_time / 1;
             timeUi.text = Score.ToString();

@@ -7,9 +7,14 @@ public class Player : MonoBehaviour
     [SerializeField] private Sprite[] playerImg;
     private SpriteRenderer _sr;
     private int _tabCount;
+    public static ParticleSystem ParticleSystem;
     public static int ShapeType;
+    public static bool IsAlive;
     private void Start()
     {
+        IsAlive = true;
+        ParticleSystem = GameObject.FindWithTag("prt").GetComponent<ParticleSystem>();
+        ParticleSystem.Stop();
         _sr = GetComponent<SpriteRenderer>();
         ShapeType = Random.Range(0, 4);
         _tabCount = ShapeType;
