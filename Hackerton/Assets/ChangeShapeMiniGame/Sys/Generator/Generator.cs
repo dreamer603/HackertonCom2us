@@ -4,7 +4,6 @@ namespace ChangeShapeMiniGame.Sys.Timer
 {
     public class Generator : MonoBehaviour
     {
-        [Header("생성할 오브젝트 칸")] public GameObject spawnObj;
         [Header("생성 목록")] public GameObject[] spawnArr;
         [Header("생성주기")] public float spawnTime;
         [Header("점수문턱")] public int highestOnStage;
@@ -17,7 +16,6 @@ namespace ChangeShapeMiniGame.Sys.Timer
         
         private void Update()
         {
-            Debug.Log(HardNess);
             _timer += Time.deltaTime;
             HardnessChange();
             HardnessCheck();
@@ -63,11 +61,15 @@ namespace ChangeShapeMiniGame.Sys.Timer
 
         private void Generate()
         {
-            if (_timer > spawnTime)
-            {
-                Debug.Log("생성");
-                _timer = 0;
-            }
+            if (!(_timer > spawnTime)) return;
+            RandomSpawn();
+            _timer = 0;
+        }
+
+        private void RandomSpawn()
+        {
+            var i=Random.Range(0, 4);
+            Instantiate(spawnArr[i], gameObject.transform.position, Quaternion.identity);
         }
     }
 }
