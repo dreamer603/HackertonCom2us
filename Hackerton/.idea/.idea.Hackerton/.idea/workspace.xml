@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5e1f69-394f-45c0-bfa3-c77827bcbf7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackerton.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Hackerton.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/009b42c625e8566a79729bad86605a46" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/00c571fa6c29fc77353ba8a306439f5b" beforeDir="false" />
@@ -11980,6 +11981,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Generator/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Timer/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -12001,6 +12006,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\user\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -12049,7 +12061,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730199382059</updated>
-      <workItem from="1730199387883" duration="1191000" />
+      <workItem from="1730199387883" duration="2506000" />
     </task>
     <servers />
   </component>
