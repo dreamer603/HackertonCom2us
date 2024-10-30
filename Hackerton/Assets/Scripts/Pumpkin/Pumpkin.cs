@@ -6,6 +6,8 @@ public class Pumpkin : MonoBehaviour
 {
     [SerializeField]
     private float _speed = 5f;
+
+    public GameObject hitPumpkinEffect;
     
     // Start is called before the first frame update
     void Start()
@@ -21,19 +23,23 @@ public class Pumpkin : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
         if (other.gameObject.CompareTag("Player"))
         {
+            Instantiate(hitPumpkinEffect);
+            hitPumpkinEffect.transform.position = transform.position;
             Destroy(other.gameObject);
+            Destroy(gameObject);
         }
         else
         {
-            PumpkinManager.Instance.pumpkinObjectPools.Add(other.gameObject);
-            ScoreManager.Instance.Score += 100;
-            if (ScoreManager.Instance.Score % 1000 == 0)
+            gameObject.SetActive(false);
+            PumpkinManager.Instance.pumpkinObjectPools.Add(gameObject);
+            PumpkinScoreManager.Instance.Score += 100;
+            if (PumpkinScoreManager.Instance.Score % 1000 == 0)
             {
                 PumpkinManager.Instance.CreateTime /= 1.5f;
             }
         }
+        
     }
 }

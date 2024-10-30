@@ -12,6 +12,8 @@ public class PumpkinManager : MonoBehaviour
     public Transform[] _spawnPoints;
 
     public GameObject pumpkinObject;
+
+    public GameObject starObject;
     
     private int _poolSize = 10;
 
@@ -40,7 +42,16 @@ public class PumpkinManager : MonoBehaviour
 
         if (_currentTime > _createTime)
         {
-            if (pumpkinObjectPools.Count > 0)
+            int dropStar = Random.Range(0, 20);
+
+            if (dropStar == 1)
+            {
+                GameObject star = Instantiate(starObject);
+                int index = Random.Range(0, _spawnPoints.Length);
+                star.transform.position = _spawnPoints[index].position;
+                star.SetActive(true);
+            }
+            else if (pumpkinObjectPools.Count > 0)
             {
                 GameObject pumpkin = pumpkinObjectPools[0];
                 pumpkinObjectPools.Remove(pumpkin);
