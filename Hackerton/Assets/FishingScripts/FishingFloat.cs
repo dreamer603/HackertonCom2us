@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class FishingFloat : MonoBehaviour
 {
-    public bool isMoving; //Âî°¡ ¿òÁ÷ÀÌ´Â ÁßÀÎÁö
-    public bool isDowning; //¿òÁ÷ÀÎ´Ù¸é ³»·Á°¡´Â ÁßÀÎÁö
+    public bool isMoving; //ì°Œê°€ ì›€ì§ì´ëŠ” ì¤‘ì¸ì§€
+    public bool isDowning; //ì›€ì§ì¸ë‹¤ë©´ ë‚´ë ¤ê°€ëŠ” ì¤‘ì¸ì§€
 
-    public int speed; //Âî°¡ ¿òÁ÷ÀÌ´Â ¼Óµµ
+    public int speed; //ì°Œê°€ ì›€ì§ì´ëŠ” ì†ë„
 
-    private Rigidbody2D rigid; //ÂîÀÇ rigidbody
+    private Rigidbody2D rigid; //ì°Œì˜ rigidbody
+
+    public SpriteRenderer fishImage;
 
     private void Awake()
     {
@@ -59,12 +61,11 @@ public class FishingFloat : MonoBehaviour
 
                 transform.GetChild(0).GetComponent<SpriteRenderer>().sprite
                     = collision.GetComponent<SpriteRenderer>().sprite;
-
+                    
                 if (collision.transform.localScale.x <= 0)
                     transform.GetChild(0).localScale = new Vector3(-collision.transform.localScale.x, collision.transform.localScale.y, collision.transform.localScale.z) * 7.6f;
                 else
                     transform.GetChild(0).localScale = collision.transform.localScale * 7.6f;
-
                 Destroy(collision.gameObject);
             }
         }
