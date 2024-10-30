@@ -40,6 +40,12 @@ public class HomeUIManager : MonoBehaviour
             case 0:
                 SceneManager.LoadScene("PumpkinScene");
                 break;
+            case 1:
+                SceneManager.LoadScene("FishGame");
+                break;
+            case 2:
+                SceneManager.LoadScene("ChangeShapeMiniGame");
+                break;
             default:
                 Debug.Log("구현 예정");
                 break;
