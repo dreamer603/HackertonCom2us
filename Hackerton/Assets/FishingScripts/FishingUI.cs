@@ -33,6 +33,6 @@ public class FishingUI : MonoBehaviour
                 break;
         }
 
-        isEnd = true;
+        FishingManage.instance.isEnd = true;
     }
 }

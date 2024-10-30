@@ -41,6 +41,11 @@ public class FishingFloat : MonoBehaviour
                 GetComponentInParent<FishingCharacter>().HP += addingHPAmount;
                 transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = null;
 
+                if(GetComponentInParent<FishingCharacter>().HP <= 0)
+                {
+                    FishingManage.instance.isEnd = true;
+                }
+
                 addingHPAmount = 0;
             }
         }
@@ -54,6 +59,12 @@ public class FishingFloat : MonoBehaviour
 
                 transform.GetChild(0).GetComponent<SpriteRenderer>().sprite
                     = collision.GetComponent<SpriteRenderer>().sprite;
+
+                if (collision.transform.localScale.x <= 0)
+                    transform.GetChild(0).localScale = new Vector3(-collision.transform.localScale.x, collision.transform.localScale.y, collision.transform.localScale.z) * 7.6f;
+                else
+                    transform.GetChild(0).localScale = collision.transform.localScale * 7.6f;
+
                 Destroy(collision.gameObject);
             }
         }

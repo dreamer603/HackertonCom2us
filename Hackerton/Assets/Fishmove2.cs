@@ -4,7 +4,7 @@ public class Fishmove2 : MonoBehaviour
 {
     public float baseInitialSpeed = 1.0f; 
     public float speedIncrement = 0.05f;
-    private static float nextInitialSpeed;
+    public static float nextInitialSpeed;
 
     private float speed; 
 
@@ -23,6 +23,5 @@ public class Fishmove2 : MonoBehaviour
     {
         // 현재 속도로 이동
         transform.Translate(Vector2.left * speed * Time.deltaTime);
-        Debug.Log("Current Speed: " + speed);
     }
 }
