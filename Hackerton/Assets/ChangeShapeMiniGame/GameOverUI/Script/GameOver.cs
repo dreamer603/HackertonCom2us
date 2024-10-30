@@ -10,39 +10,45 @@ namespace ChangeShapeMiniGame.GameOverUI.Script
     {
         [Header("게임 이름 입력")]
         [SerializeField] private string name;
-        [SerializeField] private TextMeshProUGUI currentScore;
+        [SerializeField] private TextMeshProUGUI currentScoreText;
         [SerializeField] private TextMeshProUGUI bestScore;
         [SerializeField] private GameObject scoreChangedPanel;
-        private int _currentScore;
         private int _bestScore;
 
+        private void Start()
+        {
+            gameObject.SetActive(false);
+        }
 
         private void OnEnable()
         {
             scoreChangedPanel.SetActive(false); 
-            SetUp();
         }
         
 
-        private void SetUp()
+        public void SetUp(int currentScore)
         {
-            Debug.Log(Timer.Score);
             _bestScore = PlayerPrefs.GetInt(name);
             // _currentScore = Timer.Score;
-            if (_bestScore < _currentScore)
+            if (_bestScore < currentScore)
             {
                 scoreChangedPanel.SetActive(true);
-                PlayerPrefs.SetInt(name,_currentScore);
+                PlayerPrefs.SetInt(name,currentScore);
             }
 
             bestScore.text = "최고 점수: " + _bestScore;
-            currentScore.text = "현재 점수: "+_currentScore;
+            currentScoreText.text = "현재 점수: "+ currentScore;
         }
 
-        public int CurrentScore
+
+        public void ToMain()
         {
-            get { return _currentScore; }
-            set { _currentScore = value; }
+            SceneManager.LoadScene(0);
+        }
+
+        public void ReStart()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
