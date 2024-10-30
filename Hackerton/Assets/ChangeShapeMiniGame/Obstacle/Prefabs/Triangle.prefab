@@ -172,4 +172,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idNumber: 3
-  moveSpeed: 1
+  moveSpeed: 0.8
