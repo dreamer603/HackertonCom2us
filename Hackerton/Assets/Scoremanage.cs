@@ -17,8 +17,12 @@ public class ScoreManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(0.3f);  // 0.3초 대기
-            score += 1;  // 점수 1 증가
-            scoreText.text = "점수: " + score;  // 점수 UI 업데이트
+            if (!FishingManage.instance.isEnd)
+            {
+                score += 1;  // 점수 1 증가
+                scoreText.text = "점수: " + score;  // 점수 UI 업데이트
+                FishingManage.instance.score = score;
+            }
         }
     }
 }

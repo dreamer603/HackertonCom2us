@@ -4,7 +4,7 @@ public class Fishmove : MonoBehaviour
 {
     public float baseInitialSpeed = 1.0f; // 첫 프리팹의 기본 초기 속도
     public float speedIncrement = 0.05f; // 각 프리팹이 생성될 때마다 증가할 속도 값
-    private static float nextInitialSpeed; // 다음 프리팹의 시작 속도
+    public static float nextInitialSpeed; // 다음 프리팹의 시작 속도
 
     private float speed; // 현재 프리팹의 속도
 
@@ -25,6 +25,5 @@ public class Fishmove : MonoBehaviour
     {
         // 현재 속도로 이동
         transform.Translate(Vector2.right * speed * Time.deltaTime);
-        Debug.Log("Current Speed: " + speed);
     }
 }

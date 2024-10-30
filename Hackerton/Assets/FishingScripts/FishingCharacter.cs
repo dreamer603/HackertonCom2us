@@ -25,12 +25,15 @@ public class FishingCharacter : MonoBehaviour
         HP = maxHP;
     }
 
-    void OnFish()
+    private void Update()
     {
-        if (!fishingFloat.isMoving)
+        if (Input.GetMouseButtonDown(0) && !FishingManage.instance.isEnd)
         {
-            fishingFloat.isMoving = true;
-            fishingFloat.isDowning = true;
+            if (!fishingFloat.isMoving)
+            {
+                fishingFloat.isMoving = true;
+                fishingFloat.isDowning = true;
+            }
         }
     }
 }
