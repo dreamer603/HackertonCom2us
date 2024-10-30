@@ -1,3 +1,5 @@
+using System;
+using ChangeShapeMiniGame.GameOverUI.Script;
 using TMPro;
 using UnityEngine;
 
@@ -8,6 +10,15 @@ namespace ChangeShapeMiniGame.Sys.Timer
         private float _time;
         public static int Score;
         [SerializeField] private TextMeshProUGUI timeUi;
+        private GameOver _gameOver;
+        private GameObject _gameOverPanel;
+
+        private void Awake()
+        {
+            _gameOver = GameObject.FindWithTag("modal").GetComponent<GameOver>();
+            _gameOverPanel = _gameOver.gameObject;
+        }
+
         private void Start()
         {
             Score = 0;
@@ -16,10 +27,20 @@ namespace ChangeShapeMiniGame.Sys.Timer
     
         private void Update()
         {
-            if (!Player.IsAlive) return;
-            _time += Time.deltaTime;
-            Score = (int)_time / 1;
-            timeUi.text = Score.ToString();
+            if (Player.IsAlive)
+            {
+                _time += Time.deltaTime;
+                Score = (int)_time / 1;
+                timeUi.text = Score.ToString();
+            }
+            else
+            {
+                if (_gameOverPanel.activeSelf) return;
+                _gameOverPanel.SetActive(true);
+                _gameOver.SetUp(Score);
+                Destroy(gameObject);
+
+            }
         }
     }
 }
