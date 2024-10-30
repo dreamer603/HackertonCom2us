@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
+  hitPumpkinEffect: {fileID: 3156648287915619235, guid: 28d18bad3171ba24289492e1da3bfd7d, type: 3}
 --- !u!58 &7929379142739415119
 CircleCollider2D:
   m_ObjectHideFlags: 0
