@@ -7,14 +7,7 @@
     <list default="true" id="28bf5e74-a07a-49de-93e6-f5e6db657907" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager 1.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/OtherResources/제목을 입력해주세요_-001 (73).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/OtherResources/제목을 입력해주세요_-001 (73).png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Timer/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Timer/Timer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
@@ -12004,6 +11997,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/BackGround/BackGroundMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/DeathChecker/DeadCheck.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -12082,7 +12076,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730199379832</updated>
-      <workItem from="1730199387883" duration="20760000" />
+      <workItem from="1730199387883" duration="23045000" />
     </task>
     <servers />
   </component>
