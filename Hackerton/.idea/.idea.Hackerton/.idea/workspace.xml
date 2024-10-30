@@ -6,9 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="28bf5e74-a07a-49de-93e6-f5e6db657907" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager 1.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/OtherResources/제목을 입력해주세요_-001 (73).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/OtherResources/제목을 입력해주세요_-001 (73).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Timer/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Timer/Timer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/009b42c625e8566a79729bad86605a46" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/00c571fa6c29fc77353ba8a306439f5b" beforeDir="false" />
@@ -11980,12 +11988,11 @@
       <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11997,7 +12004,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSYstem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/DeathChecker/DeadCheck.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -12075,7 +12082,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730199379832</updated>
-      <workItem from="1730199387883" duration="13936000" />
+      <workItem from="1730199387883" duration="20760000" />
     </task>
     <servers />
   </component>

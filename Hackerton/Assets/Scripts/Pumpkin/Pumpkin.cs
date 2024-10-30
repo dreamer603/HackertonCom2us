@@ -28,6 +28,8 @@ public class Pumpkin : MonoBehaviour
             Instantiate(hitPumpkinEffect);
             hitPumpkinEffect.transform.position = transform.position;
             Destroy(other.gameObject);
+            PumpkinManager.Instance.pumpkinObjectPools.Clear();
+            PumpkinScoreManager.Instance.GameOver();
             Destroy(gameObject);
         }
         else

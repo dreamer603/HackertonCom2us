@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Sprite[] playerImg;
+    [SerializeField] private Color[] particleColors; 
     private SpriteRenderer _sr;
     private int _tabCount;
     public static ParticleSystem ParticleSystem;
@@ -37,5 +38,7 @@ public class Player : MonoBehaviour
     private void ShapeCheck()
     {
         _sr.sprite = playerImg[ShapeType];
+        var main = ParticleSystem.main;
+        main.startColor = particleColors[ShapeType];
     }
 }

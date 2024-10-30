@@ -24,7 +24,6 @@ namespace ChangeShapeMiniGame.Obstacle.Script
             if (other.CompareTag("Player") && Player.ShapeType != idNumber)
             {
                 Player.IsAlive = false;
-                UiSystem.GoodGame();
             }
 
             if (other.CompareTag("Wall"))
