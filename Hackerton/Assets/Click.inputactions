@@ -1,0 +1,45 @@
+{
+    "name": "Click",
+    "maps": [
+        {
+            "name": "Fishing",
+            "id": "5250ecbf-83f0-485d-9226-a2d2ab588745",
+            "actions": [
+                {
+                    "name": "Fish",
+                    "type": "Button",
+                    "id": "c8af77c5-a612-4bbe-87d2-76965fe469b7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c5ae2641-a657-423a-8b40-2f912204f258",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fish",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "03fd8c8a-1ff2-48c6-a49f-0766fe2d94af",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fish",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
