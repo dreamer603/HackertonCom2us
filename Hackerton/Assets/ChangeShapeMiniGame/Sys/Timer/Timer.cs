@@ -10,14 +10,8 @@ namespace ChangeShapeMiniGame.Sys.Timer
         private float _time;
         public static int Score;
         [SerializeField] private TextMeshProUGUI timeUi;
-        private GameOver _gameOver;
-        private GameObject _gameOverPanel;
-
-        private void Awake()
-        {
-            _gameOver = GameObject.FindWithTag("modal").GetComponent<GameOver>();
-            _gameOverPanel = _gameOver.gameObject;
-        }
+        [SerializeField]private GameOver _gameOver;
+        [SerializeField]private GameObject _gameOverPanel;
 
         private void Start()
         {
