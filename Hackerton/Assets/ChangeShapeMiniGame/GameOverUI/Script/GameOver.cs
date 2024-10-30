@@ -17,6 +17,7 @@ namespace ChangeShapeMiniGame.GameOverUI.Script
 
         public void SetUp(int currentScore)
         {
+            scoreChangedPanel.SetActive(false);
             _bestScore = PlayerPrefs.GetInt(name);
             // _currentScore = Timer.Score;
             if (_bestScore < currentScore)
