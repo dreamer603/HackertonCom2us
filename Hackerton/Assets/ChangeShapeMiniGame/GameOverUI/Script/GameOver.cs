@@ -15,17 +15,6 @@ namespace ChangeShapeMiniGame.GameOverUI.Script
         [SerializeField] private GameObject scoreChangedPanel;
         private int _bestScore;
 
-        private void Start()
-        {
-            gameObject.SetActive(false);
-        }
-
-        private void OnEnable()
-        {
-            scoreChangedPanel.SetActive(false); 
-        }
-        
-
         public void SetUp(int currentScore)
         {
             _bestScore = PlayerPrefs.GetInt(name);
