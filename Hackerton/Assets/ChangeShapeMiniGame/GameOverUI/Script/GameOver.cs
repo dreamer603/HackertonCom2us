@@ -31,7 +31,7 @@ namespace ChangeShapeMiniGame.GameOverUI.Script
         {
             Debug.Log(Timer.Score);
             _bestScore = PlayerPrefs.GetInt(name);
-            _currentScore = Timer.Score;
+            //_currentScore = Timer.Score;
             if (_bestScore < _currentScore)
             {
                 scoreChangedPanel.SetActive(true);
@@ -40,6 +40,11 @@ namespace ChangeShapeMiniGame.GameOverUI.Script
 
             bestScore.text = "최고 점수: " + _bestScore;
             currentScore.text = "현재 점수: "+_currentScore;
+        }
+        public int CurrentScore
+        {
+            get { return _currentScore; }
+            set { _currentScore = value; }
         }
     }
 }

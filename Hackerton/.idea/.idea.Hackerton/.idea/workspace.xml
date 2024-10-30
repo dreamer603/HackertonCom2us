@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28bf5e74-a07a-49de-93e6-f5e6db657907" name="Changes" comment="">
+    <list default="true" id="5a5e1f69-394f-45c0-bfa3-c77827bcbf7e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackerton/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/PreFab/GameOverManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Circle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Circle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Square.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Star.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Star.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Triangle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Prefabs/Triangle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Player/Script/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Player/Script/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Image.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Image.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ChangeShapeMiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FishGame.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FishGame.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Jua-Regular.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Jua-Regular.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerton.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Hackerton.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/009b42c625e8566a79729bad86605a46" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Artifacts/00/00c571fa6c29fc77353ba8a306439f5b" beforeDir="false" />
@@ -11984,8 +11993,7 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11996,15 +12004,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/GameOverUI/Script/UiSYstem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Obstacle/Script/Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Generator/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeShapeMiniGame/Sys/Timer/Timer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="2o6oRWeHheqHYhlkVXpCvRCpYg8" />
+  <component name="ProjectId" id="2o6oRYrMGuKDvEl2pJztTEL4aWj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -12070,12 +12079,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="28bf5e74-a07a-49de-93e6-f5e6db657907" name="Changes" comment="" />
-      <created>1730199379832</created>
+      <changelist id="5a5e1f69-394f-45c0-bfa3-c77827bcbf7e" name="Changes" comment="" />
+      <created>1730199382059</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1730199379832</updated>
-      <workItem from="1730199387883" duration="13936000" />
+      <updated>1730199382059</updated>
+      <workItem from="1730199387883" duration="14852000" />
     </task>
     <servers />
   </component>
